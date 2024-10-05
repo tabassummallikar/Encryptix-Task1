@@ -1,7 +1,11 @@
 Name: Tabassum Mallikar
+
 Company: Encryptix
+
 ID: EXM260994
+
 Domain: Python Programming
+
 Duration: Oct to Nov 2024
 
 **Overview of the Project**
