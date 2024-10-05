@@ -19,7 +19,9 @@ The objective of this project is to develop a simple, command-line based To-Do L
 **Key Activities**
 
 Task Management: Allows users to add, view, update, complete, and delete tasks, with persistent storage in a JSON file.
+
 Data Persistence: Loads tasks from the file on startup and saves tasks after each operation to ensure task data is maintained across sessions.
+
 User Interaction: Provides a menu-driven interface for users to manage tasks and handles invalid inputs with appropriate feedback.
 
 **Technologies Used**
@@ -40,8 +42,13 @@ The application uses simple console-based interactions where users input their c
 **Key Insights**
 
 Task Persistence: Tasks are saved and loaded from a tasks.json file, ensuring data is retained between program runs.
+
 CRUD Operations: Users can perform basic operations—Create, Read, Update, and Delete—on tasks.
+
 Task Status: Tasks can be marked as "Completed" or "Pending" to track progress.
+
 User Interaction: The program provides a simple menu-driven interface, allowing users to easily manage tasks.
+
 Error Handling: Input validation checks for task ID and choice selection to prevent invalid actions.
+
 Data Storage: Tasks are stored as a dictionary with unique task IDs and details (description, status).
