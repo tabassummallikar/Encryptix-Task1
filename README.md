@@ -53,3 +53,5 @@ User Interaction: The program provides a simple menu-driven interface, allowing 
 Error Handling: Input validation checks for task ID and choice selection to prevent invalid actions.
 
 Data Storage: Tasks are stored as a dictionary with unique task IDs and details (description, status).
+
+![image alt](https://github.com/tabassummallikar/Encryptix-Task1/blob/09a13b7d89b1ec62f7fe0a9e29fcad7d67205e49/Screenshot%20(1).png)
