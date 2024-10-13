@@ -10,48 +10,44 @@ Duration: Oct to Nov 2024
 
 **Overview of the Project**
 
-
 **Project: To-Do List Application**
 
 **Objective**
-
-The objective of this project is to develop a simple, command-line based To-Do List application that allows users to manage their tasks efficiently. The application provides basic task management functionality, enabling users to add, view, update, mark tasks as completed, and delete tasks.
+The objective of this project is to create a console-based To-Do List application that allows users to manage tasks efficiently. Users can add, view, update, remove, and marks tasks as completed through a simple text-based interface. 
 
 **Key Activities**
+1. View tasks: Displays the list of tasks with their status (completed or not).
 
-Task Management: Allows users to add, view, update, complete, and delete tasks, with persistent storage in a JSON file.
+2. Add task: Prompts for a task description and adds it to the to-do list.
 
-Data Persistence: Loads tasks from the file on startup and saves tasks after each operation to ensure task data is maintained across sessions.
+3. Update task: Allows updating the description of an existing task.
 
-User Interaction: Provides a menu-driven interface for users to manage tasks and handles invalid inputs with appropriate feedback.
+4. Remove task: Deletes a task based on its number.
+
+5. Mark task as completed: Marks a specified task as completed.
+
+6. Exit: Ends the program.
 
 **Technologies Used**
+Python: Programming language used to implement the code.
 
-Python Programming Language:
-The core language used for building the to-do list application. It handles user input/output, file handling, and logic implementation.
+OOP (Object-Oriented Programming): Used for creating the Task and ToDoList classes.
 
-File I/O (Input/Output):
-os Module: Used to check if the tasks.json file exists before attempting to load it (os.path.exists()).
-File Handling: The application reads from and writes to a tasks.json file to store and persist the tasks using standard file operations (opening files in read/write mode).
+CLI (Command Line Interface): Interaction with the program through user input.
 
-JSON (JavaScript Object Notation):
-json Module: Used for serializing and deserializing tasks (converting the task list into JSON format for saving and converting it back into a Python dictionary for usage).
-
-CLI (Command-Line Interface):
-The application uses simple console-based interactions where users input their choices and task information via the command line.
+Control Flow: Loops and conditionals (while, if-else) for menu navigation.
 
 **Key Insights**
+Task Management: Tasks can be added, viewed, updated, marked as completed, or removed.
 
-Task Persistence: Tasks are saved and loaded from a tasks.json file, ensuring data is retained between program runs.
+Status Indicator: Tasks show a '✔' for completed and '✘' for incomplete.
 
-CRUD Operations: Users can perform basic operations—Create, Read, Update, and Delete—on tasks.
+Menu Interface: A user-friendly menu guides interaction with task options.
 
-Task Status: Tasks can be marked as "Completed" or "Pending" to track progress.
+Validation: Input is validated to ensure correct task numbers are used for updates, completions, and removals.
 
-User Interaction: The program provides a simple menu-driven interface, allowing users to easily manage tasks.
+Loop Control: The program continuously runs until the user chooses to exit.
 
-Error Handling: Input validation checks for task ID and choice selection to prevent invalid actions.
 
-Data Storage: Tasks are stored as a dictionary with unique task IDs and details (description, status).
 
 ![image alt](https://github.com/tabassummallikar/Encryptix-Task1/blob/09a13b7d89b1ec62f7fe0a9e29fcad7d67205e49/Screenshot%20(1).png)
