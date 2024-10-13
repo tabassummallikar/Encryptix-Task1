@@ -50,4 +50,4 @@ Loop Control: The program continuously runs until the user chooses to exit.
 
 
 
-![image alt](https://github.com/tabassummallikar/Encryptix-Task1/blob/09a13b7d89b1ec62f7fe0a9e29fcad7d67205e49/Screenshot%20(1).png)
+![image alt](https://github.com/tabassummallikar/Encryptix-Task1/blob/b9f545cddf8ea3fff23c1eaa6c20327ff4cef54d/Screenshot%20(8).png)
